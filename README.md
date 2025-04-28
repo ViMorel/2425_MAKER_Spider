@@ -17,7 +17,8 @@ Le système est basé sur :
 - Un système de levage par vis-écrou adapté aux mouvements verticaux.
 - Des servomoteurs pour la synchronisation des articulations.
 
-![Architecture du projet](images/architecture_elise.jpg)
+![patte numérotation](https://github.com/user-attachments/assets/8f8c0ff6-cf90-49e2-8686-b84d244657de)
+
 
 ---
 
@@ -41,18 +42,22 @@ Chaque patte est contrôlée par des moteurs DC et un système d'engrenages.
 > La deuxième version de la patte est plus épaisse au niveau du deuxième "os" pour plus de robustesse.  
 > Le design intègre également un chanfrein corrigé pour permettre une rotation correcte de la patte.
 
-![Photo Patte Elise](images/photo_patte_ELISE.jpg)
+![photo_patte_ELISE](https://github.com/user-attachments/assets/0a2d7b01-e418-49be-8b43-c5079cd56dd3)
+![modele_patte_ELISE](https://github.com/user-attachments/assets/8be8aed2-c5b8-4565-86b9-8490ab632d3f)
+
 
 L'intérieur du corps de l'araignée montre :
 - Une colonne centrale d'engrenage motorisée.
 - Les engrenages des extrémités transmettent le mouvement par effet levier sur les pattes.
+![corp__topview_ELISE](https://github.com/user-attachments/assets/b24d40f7-9911-4887-8833-2a1f1961622a)
 
-![Top View Corp Elise](images/corp_topview_ELISE.png)
+
 
 La partie bleue est vissée aux engrenages excentrés, permettant à une patte de reculer tandis que l’autre avance.
+![fixation_patte_ELISE](https://github.com/user-attachments/assets/ac6329e4-fa3f-455d-ad92-fa3aee28b8eb)
+![photo_engrenage_ELISE](https://github.com/user-attachments/assets/74fefcbe-bb91-4981-84bd-7800ae79f679)
 
-![Joint Patte Corps Elise](images/joint_patte_corp_ELISE.png)
-![Photo Engrenage Elise](images/photo_engrenage_ELISE.jpg)
+
 
 ---
 
@@ -70,32 +75,37 @@ Chaque moteur est géré indépendamment, afin d'optimiser la diversité de mouv
 
 - **Partie STM32G431** :
 
-![Schéma STM32](images/schema_stm32.png)
+![image](https://github.com/user-attachments/assets/7cee185d-01cd-4c83-9915-2a7232a30f27)
+
 
 - **Driver moteurs** :
 
-![Driver moteurs](images/schema_driver_moteur.png)
+![image](https://github.com/user-attachments/assets/6d4ff623-47fb-44ad-8482-fb5006ec64dd)
+
 
 - **Connecteurs et trous de montage** :
 
-![Connecteurs PCB](images/schema_connecteurs.png)
+![image](https://github.com/user-attachments/assets/79dd16a0-7c6e-4142-9e9e-34cb45a0a3fa)
+
 
 ---
 
 ### Routage PCB
 
 - **Top layer** : Partie STM32 avec plan de masse 3.3V.
-- **Bottom layer** : Partie driver avec plan d'alimentation 7.5V.
+![image](https://github.com/user-attachments/assets/b8691817-0cc5-4517-8409-10e7a6af6c81)
 
-![Routage Top](images/routage_top.png)
-![Routage Bottom](images/routage_bottom.png)
+- **Bottom layer** : Partie driver avec plan d'alimentation 7.5V.
+![image](https://github.com/user-attachments/assets/26b888ae-7ad8-4f40-b9a9-ae0ca1ab16fe)
+
 
 ---
 
 ### PCB final
 
-![PCB Vue 1](images/pcb_vue1.png)
-![PCB Vue 2](images/pcb_vue2.png)
+![image](https://github.com/user-attachments/assets/0c76d15b-6af6-4052-8b53-9aff4320a54a)
+![image](https://github.com/user-attachments/assets/759c7405-7a90-4887-be61-a7fd35ff9ed7)
+
 
 ---
 
