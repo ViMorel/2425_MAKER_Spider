@@ -11,9 +11,6 @@ L'objectif est de construire une araignée robotique capable de suivre un émett
 
 ## Architecture du Projet
 
-'''
-cd something 
-'''
 
 Le système est basé sur :
 - Un microcontrôleur pour piloter les moteurs (ESP32, STM32, etc.).
