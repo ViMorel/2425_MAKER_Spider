@@ -6,12 +6,14 @@
 
 Bienvenue sur la présentation de mon projet **Elise** !  
 L'objectif est de construire une araignée robotique capable de suivre un émetteur, en s'inspirant du personnage **"Elise"** (forme araignée) du jeu **League of Legends**.
-'''
-cd something 
-'''
+
 ---
 
 ## Architecture du Projet
+
+'''
+cd something 
+'''
 
 Le système est basé sur :
 - Un microcontrôleur pour piloter les moteurs (ESP32, STM32, etc.).
